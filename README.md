@@ -1,37 +1,45 @@
-# Aplicação de API de Endereços
+# Sistema de Endereços
 
-Este projeto é uma aplicação web fictícia para cadastro de endereços, composta por três páginas principais:
+Este projeto é uma aplicação web fictícia para cadastro, consulta e gerenciamento de endereços, utilizando uma interface moderna e responsiva.
+
+## Funcionalidades
+
+- Cadastro de endereços completos com validação automática dos dados.
+- Consulta de endereços por CEP, com preenchimento automático dos campos.
+- Armazenamento local dos endereços cadastrados.
+- Interface amigável e responsiva com navegação entre as páginas principais.
 
 ## Páginas do Projeto
 
-- **Home** (`home.html`):  
-  Página inicial do site, apresentando uma interface simples de boas-vindas ao usuário.
+- **Home** (`index.html`):  
+  Página inicial do sistema, com busca de endereços por CEP, exibição de endereços recentes e atalhos para as principais funcionalidades.
 
 - **Sobre** (`sobre.html`):  
-  Página que apresenta informações sobre o propósito do site e como ele funciona.
+  Apresenta a missão do sistema, principais recursos, tecnologias utilizadas e informações de contato.
 
 - **Cadastro** (`cadastro.html`):  
-  Página destinada ao preenchimento e cadastro de informações pessoais e de endereço. Os campos disponíveis para preenchimento são:
-  - Nome
-  - Fone
-  - CPF
-  - Endereço Completo
-  - Rua
-  - Número (da casa)
+  Formulário completo para cadastro de endereços, incluindo:
+  - Nome do Local
+  - CEP (com busca automática)
+  - Logradouro (Rua/Avenida)
+  - Número
+  - Complemento
   - Bairro
   - Cidade
   - Estado
+  - Observações
+  - Definir como endereço principal
 
-## Objetivo
+## Tecnologias Utilizadas
 
-O objetivo deste projeto é demonstrar como criar uma aplicação web simples para cadastro de endereços, podendo ser integrada futuramente a uma API para consulta automática de dados de endereço a partir de informações como CEP.
+- HTML5, CSS3 e JavaScript
+- Bootstrap 5 para design responsivo
+- API JavaScript para consulta e validação de endereços
+- Armazenamento local para endereços cadastrados
 
-## Estrutura dos Arquivos
+## Como Utilizar
 
-- [`home.html`](home.html): Página inicial do site.
-- [`sobre.html`](sobre.html): Página com informações sobre o site.
-- [`cadastro.html`](cadastro.html): Página de cadastro de usuários e endereços.
-
-## Como utilizar
-
-Abra os arquivos HTML em seu navegador para visualizar cada página do projeto.
+1. Faça o download ou clone este repositório.
+2. Abra o arquivo `index.html` em seu navegador para acessar a página inicial.
+3. Navegue entre as páginas utilizando o menu superior.
+4. Utilize a busca por CEP ou cadastre novos endereços conforme necessário.
